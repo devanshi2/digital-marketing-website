@@ -1,0 +1,377 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html,
+body {
+    background-color: #acc8e4;
+    font-size: 15px;
+    color: #363636;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+/*==========================================
+PRE LOADER 
+==========================================*/
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+a,
+button,
+a span {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.btn.extra-width {
+    padding: 13px 40px;
+}
+.btn:focus,
+.btn:active {
+    outline: inherit;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*    direction: rtl;*/
+}
+p {
+    margin: 0 0 15px;
+}
+.clear {
+    clear: both;
+}
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lane', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+h4,
+h5 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    line-height: 2rem;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+}
+h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: .9rem;
+}
+h3 {
+    font-weight: 300;
+    margin-bottom: .9rem;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+}
+h4 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-bottom: 1.1rem;
+}
+h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+h6 {
+    font-size: 1rem;
+    margin-bottom: .9rem;
+}
+p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+p:last-child {
+    margin-bottom: 0px;
+}
+
+
+
+/*
+Button
+*/
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary.disabled,
+.btn-primary.disabled:hover {
+    color: #ffffff;
+    background-color: #464646;
+
+}
+.btn {
+    margin-right: 15px;
+}
+
+.btn-default:active, .btn-default:hover  {
+    background: transparent;
+}
+.btn-lg,
+.btn-group-lg > .btn {
+    padding: 10px 30px;
+    font-size: 1.8rem;
+
+}
+.btn-md,
+btn-group-md > .btn {
+    padding: 8px 20px;
+    font-size: 1.2rem;
+
+}
+
+.btn-primary {
+    color: #ffffff;
+}
+.btn-primary:active,
+.btn-primary:hover {
+    background: #ffffff;
+}
+
+.btn-default:before,
+.btn-default:after {
+    background-color: #ffffff;
+}
+.btn-default:focus {
+    background-color: #ffffff;
+    border-color: transparent;
+}
+.btn-default:hover {
+    border-color: #ffffff;
+    color: #f56363;
+    background-color: #ffffff;
+}
+.btn-primary {
+    background-color: #464646;
+    color: #ffffff;
+    border:0;
+    padding:10px 20px;
+    margin-top: 15px;
+}
+.btn-primary span i{
+    padding-left:7px;
+}
+.btn-primary:before,
+.btn-primary:after {
+    background-color: #ffffff;
+}
+.btn-primary:focus {
+    background-color: #f56363;
+    border-color: transparent;
+}
+.btn-primary:hover {
+    color: #f56363;
+}
+/*
+Section Title Bar CSS
+*/
+.heading {
+    margin-bottom: 4rem;
+    margin-top:4rem;
+}
+
+.heading .title h4{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align:center;
+    background: #464646;
+    color: #fff;
+    padding:10px 60px;
+    display: inline;
+    box-shadow:2px 2px 2px 0 rgba(0,0,0, .5);
+    -webkit-box-shadow:2px 2px 2px 0 rgba(0,0,0, .5);
+    -moz-box-shadow:2px 2px 2px 0 rgba(0,0,0, .5);
+    -ms-box-shadow:2px 2px 2px 0 rgba(0,0,0, .5);
+    -o-box-shadow:2px 2px 2px 0 rgba(0,0,0, .5);
+}
+.heading .title.arrow-right{
+    margin-top: -130px;
+}
+.heading .title.arrow-right img{
+    margin-top: 90px;
+    margin-left: -10px;
+}
+.heading .title.arrow-left{
+    margin-top: -130px;
+}
+.heading .title.arrow-left img{
+    margin-top: 90px;
+    margin-right: -10px;
+}
+
+/*
+Extra height css
+*/
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.margin-top-40 {
+    margin-top: 40px;
+}
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+.margin-top-60 {
+    margin-top: 60px;
+}
+.margin-80 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+.margin-top-80 {
+    margin-top: 80px;
+}
+.margin-bottom-80 {
+    margin-bottom: 80px;
+}
+.padding-top-20 {
+    padding-top: 1.33rem;
+}
+.padding-bottom-20 {
+    padding-bottom: 1.33rem;
+}
+.padding-top-40 {
+    padding-top: 2.66rem;
+}
+.padding-bottom-40 {
+    padding-bottom: 2.66rem;
+}
+.padding-top-60 {
+    padding-top: 5rem;
+}
+.padding-bottom-60 {
+    padding-bottom: 5rem;
+}
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+/*padding*/
+.padding-twenty {
+    padding: 10px 0;
+}
+.padding-fourty {
+    padding: 20px 0;
+}
+.padding-sixty {
+    padding: 30px 0;
+}
+.padding-eighty {
+    padding: 40px 0;
+}
+h1 span {
+    color: #f56363;
+    font-weight: 400;
+}
+
+/* Our Portfolio Section*/
+
+.portfolio-wrap .portfolio{
+
+    display: block;
+    overflow:hidden;
+}
+.portfolio-wrap .portfolio:last-child {
+    margin-bottom: 0px;
+}
+
+.portfolio{
+    margin-bottom:30px;
+}
+.portfolio .portfolio-item{
+    margin-bottom:30px;
+}
+.portfolio .portfolio-item h4{
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#252525;
+}
+.portfolio .portfolio-item .pt-btn{
+    background:#ffc038;
+    padding:18px 40px;
+    color:#464646;
+    font-weight:bold;
+    text-transform:uppercase;
+    transition:.5s;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -o-transition:.5s;
+    box-shadow:2px 2px 2px 0 rgba(0,0,0, .5);
+    -webkit-box-shadow:2px 2px 2px 0 rgba(0,0,0, .5);
+    -moz-box-shadow:2px 2px 2px 0 rgba(0,0,0, .5);
+    -ms-box-shadow:2px 2px 2px 0 rgba(0,0,0, .5);
+    -o-box-shadow:2px 2px 2px 0 rgba(0,0,0, .5);
+}
+.portfolio .portfolio-item .pt-btn:hover{
+    background:#464646;
+    color:#fff;
+}
+
